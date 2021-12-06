@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Built-in web server",
+            "type": "php",
+            "request": "launch",
+            "runtimeArgs": [
+                "-dxdebug.mode=debug",
+                "-dxdebug.start_with_request=yes",
+                "-S",
+                "localhost:80"
+            ],
+            "env": {
+                "XDEBUG_CONFIG": "log_level=7",
+            },
+            "program": "${file}",
+            "cwd": "${fileDirname}",
+            "port": 80,
+            "serverReadyAction": {
+                "pattern": "Development Server \\(http://localhost:([0-9]+)\\) started",
+                "uriFormat": "http://localhost:%s",
+                "action": "openExternally"
+            }
+        },
+        {
+            "name": "Listen for xDebug",
+            "port": 9003,
+            "type": "php",
+            "request": "launch"
+        },
+        {
+            "name": "Launch currently open script",
+            "program": "${file}",
+            "type": "php",
+            "request": "launch",
+            "cwd": "${fileDirname}",
+            "port": 9000
+        }
+    ]
+}

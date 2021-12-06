@@ -1,0 +1,4 @@
+3.120.130.29 - - [04/Nov/2021:18:54:40 +0100] "GET /.well-known/acme-challenge/UcOoaoCd9pQyR54RiNm4q5irx3UH-4WD6Yenx9xUXo4 HTTP/1.1" 200 395 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+3.19.56.43 - - [04/Nov/2021:18:54:40 +0100] "GET /.well-known/acme-challenge/UcOoaoCd9pQyR54RiNm4q5irx3UH-4WD6Yenx9xUXo4 HTTP/1.1" 200 395 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+34.221.255.206 - - [04/Nov/2021:18:54:41 +0100] "GET /.well-known/acme-challenge/UcOoaoCd9pQyR54RiNm4q5irx3UH-4WD6Yenx9xUXo4 HTTP/1.1" 200 395 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"
+64.78.149.164 - - [04/Nov/2021:18:54:41 +0100] "GET /.well-known/acme-challenge/UcOoaoCd9pQyR54RiNm4q5irx3UH-4WD6Yenx9xUXo4 HTTP/1.1" 200 395 "-" "Mozilla/5.0 (compatible; Let's Encrypt validation server; +https://www.letsencrypt.org)"

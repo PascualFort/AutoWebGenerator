@@ -1,9 +1,9 @@
 <?php
 //CONEXION
-$dbhost = '185.23.119.251:3306';
-$dbuser = 'pascualjr';
-$dbpass = 'E7d40sm_';
-$dbname = 'IMPDB';
+$dbhost = '';
+$dbuser = '';
+$dbpass = '';
+$dbname = '';
 $dbh = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
 if ($dbh ->connect_error) {
     // echo "Error de Connexion ($dbh->connect_errno)
